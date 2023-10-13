@@ -6,6 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "reconect": "adb reverse tcp:8081 tcp:8081",
     "start": "react-native start",
     "test": "jest"
   },

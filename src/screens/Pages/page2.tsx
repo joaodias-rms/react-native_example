@@ -6,20 +6,6 @@ const image = require('../../assets/imgs/book_podcasts.png');
 // import { Container } from './styles';
 
 const Page2: React.FC = () => {
-  React.    useEffect(() => {
-    const listener = PerformanceStats.addListener(stats => {
-      console.log(stats);
-    });
-
-    // you must call .start(true) to get CPU as well
-    PerformanceStats.start();
-
-    // ... at some later point you could call:
-    // PerformanceStats.stop();
-
-    return () => listener.remove();
-  }, []);
-
   return (
     <View>
       <Text
